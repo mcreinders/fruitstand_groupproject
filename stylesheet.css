@@ -55,8 +55,8 @@ body {
 .logo {
 	display: block;
 	float: left;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	border: none;
 }
 
@@ -84,21 +84,22 @@ h1 {
 	float: right;
 	margin: 10px 0;
 }
+.error-message {
+	display: block;
+	float: right;
+	font-size: 40px;
+	font-style: italic;
+	margin: 0 0 10px 0;
+	color: green;
+	height: 30px;
+}
 button, p, img {
 	display: inline-block;
 }
-button {
-	margin: 8px 95px;
-	font-size: 24px;
-}
-button:hover {
-	background-color: darkgray;
-	color: white;
-	border: 1px solid black;
-	margin: 6px 96px;
-}
 p {
-	margin: 8px 55px;
+	margin: 8px auto;
+	width: 244px;
+	text-align: center;
 }
 .main-content {
 	overflow: scroll;
@@ -110,9 +111,23 @@ img {
   height: 180px;
   margin: 0 32px;
 	border: 1px solid black;
+	background-color: white;
 }
 .purchased p {
-	margin: 8px 91px;
+	margin: 8px auto;
+}
+button {
+	margin: 8px 73px;
+	font-size: 24px;
+	width: 100px;
+	text-align: center;
+
+}
+button:hover {
+	background-color: darkgray;
+	color: white;
+	border: 1px solid black;
+	margin: 6px 73px;
 }
 .inventory {
 	border: 1px solid black;
